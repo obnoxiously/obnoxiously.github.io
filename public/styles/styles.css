@@ -1,4 +1,35 @@
 body {
     background-color: black;
     color: white;
-  }
+}
+
+/* Change the color of normal links */
+a {
+  color: white;
+}
+
+/* Change the color of visited links */
+a:visited {
+  color: grey;
+}
+
+/* Change the color of links when hovered over */
+a:hover {
+  color: lightgrey;
+}
+
+/* Change the color of links when they are being clicked */
+a:active {
+  color: darkgrey;
+}
+
+.image-container {
+  width: 300px; /* Adjust the width as needed */
+  overflow: hidden;
+}
+
+.cropped-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
