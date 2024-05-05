@@ -3,9 +3,21 @@ body {
     color: white;
 }
 
+@font-face {
+  font-family: '1785baskerville';
+  src: url('../resources/fonts/1785baskerville.woff') format('woff');
+}
+
+.page-header {
+  font-family: '1785baskerville';
+  word-spacing: 10px;
+}
+
+
 /* Change the color of normal links */
 a {
   color: white;
+  text-decoration: none;
 }
 
 /* Change the color of visited links */
@@ -32,4 +44,17 @@ a:active {
   width: 100%;
   height: auto;
   cursor: pointer;
+}
+
+.nav-link {
+  font-family: '1785baskerville';
+}
+
+.nav-link a {
+  margin: 0px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link a:first-child {
+  margin-left: 0;
 }

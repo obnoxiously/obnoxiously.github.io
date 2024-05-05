@@ -1,4 +1,5 @@
 ---
+  import Navoptions from '../components/nav-options.astro';
 ---
 
 <html lang="en">
@@ -12,12 +13,10 @@
 		<title>NECROTHON</title>
 	</head>
 	<body>
-        <a href="/">HOME</a>
-        <a href="/about">ABOUT</a>
-        <a href="/prices">PRICES</a>
-		<h1>PRICES</h1>
+		<Navoptions/>
+		<h1 class="page-header">PRICES</h1>
 		<p>Your interest in this page alone is worth thanks, but if you are keen to support this neglected mortuary further, please, look on...</p>
-		<h2>THE PROCESS</h2>
+		<h2 class="page-header">THE PROCESS</h2>
 		<ol>
 			<li>You share references with me and we talk about your character and any ideas you had for the piece.</li>
 			<li>I take that knowledge and return with a preliminary sketch.</li>
@@ -26,13 +25,27 @@
 			<li>Finally, when there is no more work to be done, the art is transfered in whatever format you prefer.</li>
 		</ol>
 		<p>All payment is received through <a href="https://ko-fi.com/necrothon">ko-fi</a>.</p>
-		<h2>SKETCHES</h2>
-		<p>A bargain, to be sure. Sketches range from $20 to $50 depending on the complexity of the piece.</p>
-		<div class="image-container">
-			<img src="/images/flcl-bill.jpg" alt="Image of Bill" class="cropped-image">
-			<img src="/images/calospex-art.jpg" alt="Image of Bill" class="cropped-image">
-			<img src="/images/the-outlaw.jpg" alt="Image of Bill" class="cropped-image">
-		</div>
 		
+		<h2 class="page-header">PRICE LIST</h2>
+		<p>For examples of the following price points, please navigate to my BLOG where you can search for pieces by the titles.</p>
+		<ul>
+			<li>SKETCH: A simple drawing, typically with limited colour. Can be anything from a full body piece to a portrait to something more environmental.</li>
+			<ul>
+				<li>Ranges from $20 to $50 USD.</li>
+			</ul>	
+			<li>COLORED: Next step up, basically a sketch with a little more value and colour.</li>
+			<ul>
+				<li>Ranges from $40 to $80 USD.</li>
+			</ul>	
+			<li>PAINTING: These forgo linework for a more painted style. They tend to take the longest.</li>
+			<ul>
+				<li>Ranges from $60 to $150 USD.</li>
+			</ul>	
+		</ul>
+
+		<h2 class="page-header">ADDITIONAL INFO</h2>
+		<p>
+			As an artist I have certain strengths and weaknesses when it comes to what I'm used to drawing. I'll happily try my hand at just about any character design, but certain things like mecha, guns and complicated fantasy armour may increase the complexity and cost of a piece.
+		</p>
 	</body>
 </html>
