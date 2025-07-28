@@ -58,3 +58,7 @@ a:active {
 .nav-link a:first-child {
   margin-left: 0;
 }
+
+p {
+  font-size: 120%
+}
